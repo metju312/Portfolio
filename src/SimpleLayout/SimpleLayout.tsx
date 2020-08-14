@@ -19,15 +19,9 @@ const SimpleLayout = () => {
   return (
     <>
       <BackgroundImage>
-        <NavBar>
-          <Logo />
-          <h4>Tytuł </h4>
-          <h2>Tytuł</h2>
-          <h2>Tytuł</h2>
-        </NavBar>
+        <NavBar></NavBar>
       </BackgroundImage>
       <p>cos</p>
-      <FontAwesomeIcon icon="coffee" />
     </>
   )
 };
