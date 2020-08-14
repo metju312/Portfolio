@@ -11,9 +11,9 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const Template = () => {
   const classes = useStyles();
-  return <React.PureComponent className={classes.root}>
+  return <div className={classes.root}>
     <button>My work</button>
-  </React.PureComponent>
+  </div>
 };
 
 export default Template
