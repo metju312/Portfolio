@@ -41,7 +41,7 @@ const NavBar = (props: any) => {
       <div className={classes.navBarButtons}>
         <Button className={classes.secondaryButton}>My work</Button>
         <Button className={classes.secondaryButton}>Contact</Button>
-        <Button variant="outlined" className={classes.logInButton}>Log in</Button>
+        <Button variant="outlined" className={classes.logInButton}>Say hello</Button>
       </div>
     </div>
   </>
