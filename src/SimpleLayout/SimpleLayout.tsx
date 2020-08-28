@@ -3,22 +3,23 @@ import {createStyles, Theme} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import BackgroundImage from "./BackgroundImage";
 import NavBar from "./NavBar";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import Logo from "./Logo";
 import WorkCard from "./WorkCard";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       height: '100%',
+      width: `100%`
     },
     workCards: {
       display: 'flex',
+      flexWrap: 'wrap',
       justifyContent: 'center',
-      alignItems: 'center',
-      marginTop: '100px',
-      marginBottom: '100px'
-    }
+      marginTop: '85px',
+      marginBottom: '100px',
+      maxWidth: '1140px',
+      margin: 'auto',
+    },
   })
 );
 
@@ -30,6 +31,9 @@ const SimpleLayout = () => {
         <NavBar></NavBar>
       </BackgroundImage>
       <div className={classes.workCards}>
+        <WorkCard/>
+        <WorkCard/>
+        <WorkCard/>
         <WorkCard/>
         <WorkCard/>
         <WorkCard/>

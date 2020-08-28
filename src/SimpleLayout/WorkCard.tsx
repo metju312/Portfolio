@@ -8,10 +8,12 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       display: 'grid',
       gridTemplateColumns: '1fr',
-      width: '400px',
       borderRadius: '.4rem',
       boxShadow: '0 0 1rem rgba(0,0,0,.15)',
-      margin: '0 30px'
+      margin: '15px',
+      flex: '1 0',
+      minWidth: '350px',
+      maxWidth: '350px'
     },
     img:{
       backgroundImage: `url("assets/images/travel1.jpg")`,
