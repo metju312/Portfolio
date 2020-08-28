@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     workCards: {
       display: 'flex',
-      justifyContent: 'space-evenly',
+      justifyContent: 'center',
       alignItems: 'center',
       marginTop: '100px',
       marginBottom: '100px'
