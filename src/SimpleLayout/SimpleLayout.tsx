@@ -4,12 +4,13 @@ import {makeStyles} from "@material-ui/core/styles";
 import BackgroundImage from "./BackgroundImage";
 import NavBar from "./NavBar";
 import WorkCard from "./WorkCard";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       height: '100%',
-      width: `100%`
+      width: '100%'
     },
     workCards: {
       display: 'flex',
@@ -20,6 +21,9 @@ const useStyles = makeStyles((theme: Theme) =>
       maxWidth: '1140px',
       margin: 'auto',
     },
+    footer: {
+      width: '100%'
+    }
   })
 );
 
@@ -38,6 +42,7 @@ const SimpleLayout = () => {
         <WorkCard/>
         <WorkCard/>
       </div>
+      <Footer/>
     </div>
   )
 };
